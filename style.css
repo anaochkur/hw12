@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Monteserrat',sans-serif;
+}
+
+header{
+    width: 1440px;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   margin: 0 auto;
+}
+main{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.container{
+  width: 1200px;
+  height: 46px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+.menu-items{
+    font-size: 14px;
+}
+.main{
+    width: 1200px;
+    height: 495px;
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-weight: 700;
+    font-size: 44px;
+}
+.paragraph{
+    font-size: 18px;
+    width: 500px;
+    height: 90px;
+    color: #544837;
+}
+.img{
+    width: 644px;
+    height: 495px;
+}
+button{
+    font-weight:600;
+}
+.buttons > button{
+    width: 110px;
+    height: 46px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.button2 > button{
+   width: 180px;
+   height: 50px;
+   border-radius: 5px;
+   font-size: 16px;
+}
+.signin{
+    color: black;
+    background: #fff;
+    border: 1px solid #BCD0E5;
+}
+.signup, .btn{
+    color: #fff;
+    background: #FF9900;
+    border: none;
+}
+
+.menu-items:hover{
+    color: #FF9900;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
