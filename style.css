@@ -14,11 +14,14 @@ header{
    justify-content:center;
    margin: 0 auto;
 }
-main{
+.main{
     align-items: center;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    width: 1200px;
+    height: 495px;
+    gap: 50px;
 }
 .container{
   width: 1200px;
@@ -38,12 +41,7 @@ main{
 .menu-items{
     font-size: 14px;
 }
-.main{
-    width: 1200px;
-    height: 495px;
-    display: flex;
-    align-items: center;
-}
+
 .title{
     font-weight: 700;
     font-size: 44px;
